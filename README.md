@@ -1,3 +1,3 @@
 # Ndfig
 
-Easy to create normal distribution figures.
+Easy to create Normal Distribution figures.
