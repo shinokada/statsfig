@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ndfig",
-    version="0.1.0",
+    name="statsfig",
+    version="0.1.2",
     author="Shinichi Okada",
     author_email="okada.shin@gmail.com",
     description="Normal Distribution Figures package.",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'matplotlib', 'numpy', 'scipy.stats'
+        'matplotlib', 'numpy', 'scipy', 'seaborn'
     ],
     python_requires='>=3.6',
 )
