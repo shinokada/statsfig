@@ -25,3 +25,5 @@ sf.chifig(dof=[1,4])
 ```
 
 ![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/chisquare2.png)
+
+
