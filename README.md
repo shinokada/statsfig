@@ -20,10 +20,10 @@ import statsfig as sf
 
 ## Available functions
 
-| Functions                                        | Description                                                |
-| ------------------------------------------------ | ---------------------------------------------------------- |
-| [`normcdf()`](./doc/normal.md#normcdf)           | Cumulative Normal Distribution                             |
-| [`normpdf_std()`](./doc/normal.md#normpdf_std)   | Normal Distribution PDF with different standard deviations |
-| [`normpdf_mean()`](./doc/normal.md#mormpdf_mean) | Normal Distribution PDF with different means               |
-| [`chifig()`](./doc/chisquare.md)                 | Chi-Square Distribution                                    |
-| [`binofig()`](./doc/bionomial.md)                | Binomial Distribution                                      |
+| Functions                                                                                        | Description                                                |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| [`normcdf()`](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normcdf)           | Cumulative Normal Distribution                             |
+| [`normpdf_std()`](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normpdf_std)   | Normal Distribution PDF with different standard deviations |
+| [`normpdf_mean()`](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normpdf_mean) | Normal Distribution PDF with different means               |
+| [`chifig()`](https://github.com/shinokada/statsfig/blob/master/doc/chisquare.md)                 | Chi-Square Distribution                                    |
+| [`binofig()`](https://github.com/shinokada/statsfig/blob/master/doc/bionomial.md)                | Binomial Distribution                                      |
