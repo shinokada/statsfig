@@ -23,11 +23,11 @@ import statsfig as sf
 sf.binofig()
 ```
 
-![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/binofig1.png
+![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/binofig1.png)
 
 
 ```
 sf.binofig(size=100, grid=False)
 ```
 
-![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/binofig2.png
+![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/binofig2.png)

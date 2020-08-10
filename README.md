@@ -26,4 +26,4 @@ import statsfig as sf
 | [`normpdf_std()`](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normpdf_std)   | Normal Distribution PDF with different standard deviations |
 | [`normpdf_mean()`](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normpdf_mean) | Normal Distribution PDF with different means               |
 | [`chifig()`](https://github.com/shinokada/statsfig/blob/master/doc/chisquare.md)                 | Chi-Square Distribution                                    |
-| [`binofig()`](https://github.com/shinokada/statsfig/blob/master/doc/bionomial.md)                | Binomial Distribution                                      |
+| [`binofig()`](https://github.com/shinokada/statsfig/blob/master/doc/binomial.md)                 | Binomial Distribution                                      |
