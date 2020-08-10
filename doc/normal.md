@@ -59,8 +59,42 @@ normcdf(mean=3, std=2, lb=4, ub=10, y_max=0.25, x_min=-4, x_max=10)
 
 ## normpdf_std
 
+### parameters
 
-## mormpdf_mean
+| Parameters | Default   |                             |
+| ---------- | --------- | --------------------------- |
+| val        | [1,2,3,4] | Degree of freedom values    |
+| fig_w      | 8         | Matplotlib `figsize` width  |
+| fig_l      | 8         | Matplotlib `figsize` length |
+| grid       | True      | Use 'True' or 'False'       |
 
+### Examples
 
+```
+import statfig as sf
 
+sf.normpdf_std()
+```
+
+![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/normpdf_std.png)
+
+## normpdf_mean
+
+### parameters
+
+| Parameters | Default   |                             |
+| ---------- | --------- | --------------------------- |
+| val        | [1,2,3,4] | Mean values to display      |
+| fig_w      | 8         | Matplotlib `figsize` width  |
+| fig_l      | 8         | Matplotlib `figsize` length |
+| grid       | True      | Use 'True' or 'False'       |
+
+### examples
+
+```
+import statfig as sf
+
+sf.normpdf_mean()
+```
+
+![normpdf_std](https://raw.githubusercontent.com/shinokada/statsfig/master/image/normpdf_mean.png)
