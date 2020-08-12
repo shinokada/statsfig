@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="statsfig",
-    version="0.2.3",
+    version="0.2.4",
     author="Shinichi Okada",
     author_email="okada.shin@gmail.com",
     description="Stats Figures package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/shinokada/ndfig",
+    url="https://github.com/shinokada/statsfig",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
