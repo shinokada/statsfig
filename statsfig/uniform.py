@@ -1,5 +1,6 @@
 import seaborn as sns
 from scipy.stats import uniform
+from matplotlib import pyplot as plt
 
 
 def uniformfig(size=1000, start=10, width=20, fig_w=8, fig_l=8, grid=True, color='skyblue', linewidth=10,
@@ -42,7 +43,6 @@ def uniformfig(size=1000, start=10, width=20, fig_w=8, fig_l=8, grid=True, color
 
     """
 
-    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     plt.figure(figsize=(fig_w, fig_l))
     data_uniform = uniform.rvs(size=size, loc=start, scale=width)
 

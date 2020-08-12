@@ -1,5 +1,6 @@
 from scipy.stats import bernoulli
 import seaborn as sns
+from matplotlib import pyplot as plt
 
 
 def bernofig(p=0.5, size=1000, fig_w=8, fig_l=8, grid=True, color='skyblue', linewidth=15, alpha=1,
@@ -38,7 +39,6 @@ def bernofig(p=0.5, size=1000, fig_w=8, fig_l=8, grid=True, color='skyblue', lin
 
     """
 
-    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     plt.figure(figsize=(fig_w, fig_l))
 
     data_bern = bernoulli.rvs(size=size, p=p)

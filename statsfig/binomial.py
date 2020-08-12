@@ -1,5 +1,6 @@
 import seaborn as sns
 from scipy.stats import binom
+from matplotlib import pyplot as plt
 
 
 def binofig(num=20, p=0.5, loc=0, size=1000, fig_w=8, fig_l=8, grid=True, hist=True,
@@ -41,7 +42,6 @@ def binofig(num=20, p=0.5, loc=0, size=1000, fig_w=8, fig_l=8, grid=True, hist=T
 
     """
 
-    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     plt.figure(figsize=(fig_w, fig_l))
 
     data_binom = binom.rvs(n=num, p=p, loc=loc, size=size)

@@ -1,5 +1,6 @@
 import seaborn as sns
 from scipy.stats import poisson
+from matplotlib import pyplot as plt
 
 # Poisson
 
@@ -40,7 +41,6 @@ def poisfig(mu=4, size=10000, fig_w=8, fig_l=8, grid=True, hist=True, color='sky
 
     """
 
-    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     plt.figure(figsize=(fig_w, fig_l))
 
     data_binom = poisson.rvs(mu=mu, size=size)

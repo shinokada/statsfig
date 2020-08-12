@@ -1,5 +1,6 @@
 from scipy.stats import gamma
 import seaborn as sns
+from matplotlib import pyplot as plt
 
 
 def gammafig(a=5, size=10000, fig_w=8, fig_l=8, grid=True, color='skyblue', linewidth=10,
@@ -38,8 +39,6 @@ def gammafig(a=5, size=10000, fig_w=8, fig_l=8, grid=True, color='skyblue', line
     sf.gammafig(hist=False, size=1000, color='r')
 
     """
-
-    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
 
     plt.figure(figsize=(fig_w, fig_l))
     data_gamma = gamma.rvs(a=a, size=size)
