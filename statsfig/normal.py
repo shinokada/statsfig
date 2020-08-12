@@ -7,6 +7,9 @@ def normcdf(x_min=-4, x_max=4, mean=0, std=1, y_max=0.45,
             xlabel='x', ylabel='pdf(x)', lb=-10, ub=10, font_size=20, alpha=1, fill_color='skyblue',
             bg_color='white', title='', fig_w=8, fig_l=8, grid=True):
     """
+
+    Normal Distribution
+
     parameters
     ----------
     x_min: default -4, x-axis min value
@@ -81,6 +84,9 @@ def normcdf(x_min=-4, x_max=4, mean=0, std=1, y_max=0.45,
 
 def normpdf_std(val=[1, 2, 3, 4], fig_w=8, fig_l=8, grid=True):
     """
+
+    Normal Distribution with different standard deviations
+
     parameters
     ----------
     val: default [1,2,3,4], Degree of freedom values
@@ -112,6 +118,9 @@ def normpdf_std(val=[1, 2, 3, 4], fig_w=8, fig_l=8, grid=True):
 
 def normpdf_mean(val=[1, 2, 3, 4], fig_w=8, fig_l=8, grid=True):
     """
+
+    Normal Distribution with different means
+
     parameters
     ----------
     val: default [1,2,3,4], Mean values to display

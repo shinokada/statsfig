@@ -1,0 +1,39 @@
+# Exponential Distribution
+
+## expofig()
+
+### parameters
+
+| Parameters  | Default                  | Description                                      |
+| ----------- | ------------------------ | ------------------------------------------------ |
+| scale       | 1                        | The standard deviation value.                    |
+| loc         | 0                        | The location parameter to shift the graph.       |
+| size        | 1000                     | The Number of random variables.                  |
+| fig_w       | 8                        | Matplotlib `figsize` width.                      |
+| fig_l       | 8                        | Matplotlib `figsize` length.                     |
+| grid        | True                     | Use 'True' or 'False' to show the grid.          |
+| color       | 'skyblue'                | The color to fill.                               |
+| linewidth   | 10                       | The line width size.                             |
+| alpha       | 1                        | The alpha(transparency) value for filling color. |
+| hist        | True                     | Set True to show histogram, otherwise False.     |
+| title       | 'Bernoulli Distribution' | The figure's title.                              |
+| xlabel      | 'Bernoulli Distribution' | The x-axis label.                                |
+| ylabel      | 'Frequency'              | The y-axis label.                                |
+| legend_size | 12                       | The legend font size.                            |
+| title_size  | 20                       | The title font size.                             |
+| label_size  | 16                       | The label font size.                             |
+| tick_size   | 12                       | The x and y axis tick font size.                 |
+
+### Examples
+
+    import statsfig as sf
+    
+    sf.expofig()
+
+![expo1.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/expo1.png)
+
+```
+sf.expofig(hist=False, color='#f25acc', size=100)
+```
+
+![expo2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/expo2.png)

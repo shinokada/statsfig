@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="statsfig",
-    version="0.1.2",
+    version="0.1.4",
     author="Shinichi Okada",
     author_email="okada.shin@gmail.com",
     description="Normal Distribution Figures package.",

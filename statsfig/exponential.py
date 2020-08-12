@@ -1,56 +1,57 @@
+from scipy.stats import expon
 import seaborn as sns
-from scipy.stats import binom
 
 
-def binofig(num=20, p=0.5, loc=0, size=1000, fig_w=8, fig_l=8, grid=True, hist=True,
-            color='skyblue', linewidth=10, alpha=1, title='Binomial Distribution',
-            xlabel='Binomial Distribution', ylabel='Frequency', legend_size=12, title_size=20,
-            label_size=16, tick_size=12):
+def expofig(scale=1, loc=0, size=1000, fig_w=8, fig_l=8, grid=True, color='skyblue', linewidth=15,
+            alpha=1, hist=True, xlabel='Exponential Distribution', ylabel='Frequency',
+            title='Exponential Distribution', legend_size=12, title_size=20, label_size=16, tick_size=12):
     """
+
+    Exponential Distribution
 
     parameters
     ----------
 
-    num: The number of trials. The default value is 20.
-    p: The probability of a success on an individual trial. The default value is 0.5. 
-    loc: The Location parameter. The default value is 0. 
+    scale: The standard deviation value. The default value is 1. 
+    loc: The mean value. The default value is 0.
     size: The Number of random variables. The default value is 1000. 
     fig_w: Matplotlib `figsize` width, the default value is 8.
     fig_l: Matplotlib `figsize` length, the default value is 8.
     grid: Use 'True' or 'False' to show the grid. The default value is True.
-    hist: To show Histogram, use 'True' or 'False'. The default value is True.
     color: The color to fill. The default value is 'skyblue'.
     linewidth: The line width. The default value is 10.
     alpha: The alpha(transparency) value for filling color. The default value is 1.
-    title: The figure's title. The default value is 'Chi-Square Distribution' 
-    xlabel: The x-axis label. The default value is 'Value'.
+    hist: Set True to show histogram, otherwise False. The default value is True.
+    title: The figure's title. The default value is 'Bernoulli Distribution' 
+    xlabel: The x-axis label. The default value is 'Bernoulli Distribution'.
     ylabel: The y-axis label. The default value is 'Frequency'.
     legend_size: The legend font size. The default value is 12.
     title_size: The title font size. The default value is 20.
     label_size: The label font size. The default value is 16.
-    tick_size: The x and y axis tick font size. The default value is 12. 
+    tick_size: x and y axis tick font size. The default value is 12.
 
+    Examples
+    --------
 
-    example
-    -------
     import statsfig as sf
 
-    sf.binofig()
-    sf.binofig(p=0.7, num=30, loc=1, color='g', linewidth=5)
-    sf.binofig(size=100, grid=False)
+    sf.expofig()
+
+    sf.expofig(hist=False, color='#f25acc', size=100)
 
     """
 
     plt.figure(figsize=(fig_w, fig_l))
 
-    data_binom = binom.rvs(n=num, p=p, loc=loc, size=size)
+    data_expon = expon.rvs(scale=scale, loc=loc, size=size)
 
-    label = 'p={}, n={}, loc={}'.format(p, num, loc)
-    ax = sns.distplot(data_binom,
+    label = 'scale={}, loc={}, size={}'.format(scale, loc, size)
+    ax = sns.distplot(data_expon,
                       kde=True,
+                      bins=100,
                       color=color,
-                      hist_kws={"linewidth": linewidth, 'alpha': alpha},
                       hist=hist,
+                      hist_kws={"linewidth": linewidth, 'alpha': alpha},
                       label=label
                       )
 
@@ -65,4 +66,5 @@ def binofig(num=20, p=0.5, loc=0, size=1000, fig_w=8, fig_l=8, grid=True, hist=T
     plt.rc('ytick', labelsize=tick_size)    # fontsize of the tick labels
 
     ax.grid(grid)
+
     plt.show()
