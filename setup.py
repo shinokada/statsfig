@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="statsfig",
-    version="0.1.4",
+    version="0.2.0",
     author="Shinichi Okada",
     author_email="okada.shin@gmail.com",
-    description="Normal Distribution Figures package.",
+    description="Stats Figures package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/shinokada/ndfig",
