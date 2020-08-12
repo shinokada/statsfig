@@ -26,7 +26,7 @@
 bernofig(size=10000)
 ```
 
-![image-20200812123513349](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/bernoulli1.png)
+![image-20200812123513349](https://raw.githubusercontent.com/shinokada/statsfig/master/image/bernoulli1.png)
 
 
 
@@ -34,4 +34,4 @@ bernofig(size=10000)
 bernofig(p=0.6, color='#2a6bd4', grid=False)
 ```
 
-![image-20200812123931093](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/bernoulli2.png)
+![image-20200812123931093](https://raw.githubusercontent.com/shinokada/statsfig/master/image/bernoulli2.png)

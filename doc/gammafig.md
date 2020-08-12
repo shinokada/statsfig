@@ -28,10 +28,10 @@
     
     sf.gammafig()
 
-![gamma1.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/gamma1.png)
+![gamma1.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/gamma1.png)
 
 ```
 sf.gammafig(hist=False, size=1000, color='r')
 ```
 
-![gamma2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/gamma2.png)
+![gamma2.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/gamma2.png)

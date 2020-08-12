@@ -39,7 +39,7 @@ sf.binofig()
 binofig(p=0.7, num=30, loc=1, color='g', linewidth=5)
 ```
 
-![image-20200812133915609](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/binomial3.png)
+![image-20200812133915609](https://raw.githubusercontent.com/shinokada/statsfig/master/image/binomial3.png)
 
 
 

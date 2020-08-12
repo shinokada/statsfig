@@ -29,10 +29,10 @@
     import statsfig as sf
     
     sf.uniformfig()
-![uniform1.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/uniform1.png)
+![uniform1.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/uniform1.png)
 
 ```
 sf.uniformfig(color='g', grid=False, fig_w=5, fig_l=4)
 ```
 
-![uniform2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/uniform2.png)
+![uniform2.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/uniform2.png)

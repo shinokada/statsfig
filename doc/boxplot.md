@@ -24,7 +24,7 @@
     
     sf.boxplot()
 
-![box1.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/box1.png)
+![box1.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/box1.png)
 
 
 
@@ -33,7 +33,7 @@ info={'bplot 1':[-9, -4, 2, 4, 9]}
 sf.boxplot(info, mycolor=['skyblue'])
 ```
 
-![box2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/box2.png)
+![box2.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/box2.png)
 
 
 
@@ -42,7 +42,7 @@ info={'bplot 1':[-9, -4, 2, 4, 9], 'bplot 2':[-5, -2, 1, 3, 8], 'bplot 3':[1, 4,
 sf.boxplot(info, vert=False)
 ```
 
-![box3.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/box3.png)
+![box3.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/box3.png)
 
 
 
@@ -50,4 +50,4 @@ sf.boxplot(info, vert=False)
 sf.boxplot(info, vert=False, fill_color=False)
 ```
 
-![box4.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/box4.png)
+![box4.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/box4.png)

@@ -97,7 +97,7 @@ sf.normpdf_std()
 normpdf_std(val=[1,3,5,7], x_min=-20, x_max=20, y_max=0.45)
 ```
 
-![normalstd2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/nomalstd2.png)
+![normalstd2.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/nomalstd2.png)
 
 ## normpdf_mean
 

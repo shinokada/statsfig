@@ -28,7 +28,7 @@
     import statsfig as sf
     
     sf.poisfig()
-![pois1.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/pois1.png)
+![pois1.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/pois1.png)
 
 
 
@@ -36,4 +36,4 @@
 sf.poisfig(size=100, grid=False)
 ```
 
-![pois2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/pois2.png)
+![pois2.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/pois2.png)

@@ -30,10 +30,10 @@
     
     sf.expofig()
 
-![expo1.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/expo1.png)
+![expo1.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/expo1.png)
 
 ```
 sf.expofig(hist=False, color='#f25acc', size=100)
 ```
 
-![expo2.png](/Users/shinokada/pythonproject/statsfig/statsfig-python/image/expo2.png)
+![expo2.png](https://raw.githubusercontent.com/shinokada/statsfig/master/image/expo2.png)
