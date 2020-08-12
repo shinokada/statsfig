@@ -33,7 +33,7 @@ import statsfig as sf
 | [bernofig()](https://github.com/shinokada/statsfig/blob/master/doc/bernofig.md) | Bernoulli Distribution                                 |
 | [binofig()](https://github.com/shinokada/statsfig/blob/master/doc/binomial.md) | Binomial Distribution                                  |
 | [boxplot()](https://github.com/shinokada/statsfig/blob/master/doc/boxplot.md) | Box and whisker plot                                   |
-| [chifig()](https://github.com/shinokada/statsfig/blob/master/doc/chisquare.md) | Chi-Square Distribution                                |
+| [chifig()](https://github.com/shinokada/statsfig/blob/master/doc/chifig.md) | Chi-Square Distribution                                |
 | [expofig()](https://github.com/shinokada/statsfig/blob/master/doc/expofig.md) | Exponential Distribution                               |
 | [gammafig()](https://github.com/shinokada/statsfig/blob/master/doc/gammafig.md) | Gamma Distribution                                     |
 | [normcdf()](https://github.com/shinokada/statsfig/blob/master/doc/normal.md) | Normal Distribution                                    |
