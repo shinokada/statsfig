@@ -39,6 +39,8 @@ def gammafig(a=5, size=10000, fig_w=8, fig_l=8, grid=True, color='skyblue', line
 
     """
 
+    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
+
     plt.figure(figsize=(fig_w, fig_l))
     data_gamma = gamma.rvs(a=a, size=size)
 

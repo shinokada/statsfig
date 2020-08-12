@@ -41,6 +41,7 @@ def expofig(scale=1, loc=0, size=1000, fig_w=8, fig_l=8, grid=True, color='skybl
 
     """
 
+    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     plt.figure(figsize=(fig_w, fig_l))
 
     data_expon = expon.rvs(scale=scale, loc=loc, size=size)

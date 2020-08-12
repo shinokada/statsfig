@@ -37,6 +37,8 @@ def bernofig(p=0.5, size=1000, fig_w=8, fig_l=8, grid=True, color='skyblue', lin
     sf.bernofig(p=0.6, color='#2a6bd4', grid=False)
 
     """
+
+    fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     plt.figure(figsize=(fig_w, fig_l))
 
     data_bern = bernoulli.rvs(size=size, p=p)

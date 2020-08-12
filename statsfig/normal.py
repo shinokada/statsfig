@@ -49,6 +49,7 @@ def normcdf(x_min=-4, x_max=4, mean=0, std=1, y_max=0.45,
     sf.normcdf(mean=3, std=2, lb=4, ub=10, y_max=0.25, x_min=-4, x_max=10)
 
     """
+
     fig, ax = plt.subplots(1, 1, figsize=(fig_w, fig_l))
     # for distribution curve
     x = np.arange(x_min, x_max, 0.1)
