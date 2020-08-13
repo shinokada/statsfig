@@ -3,15 +3,12 @@
 Statsfig allow you to create following figures easily:
 
 - Bernoulli distribution
-
 - Binomial distribution
 - Box-and-Whisker plot
 - Chi square figures
 - Exponential distribution
 - Gamma distribution
-
 - Normal distribution
-
 - Poisson distribution
 - Uniform distribution
 

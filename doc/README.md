@@ -1,0 +1,13 @@
+| Functions                                                                                    | Description                                            |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [bernofig()](https://github.com/shinokada/statsfig/blob/master/doc/bernofig.md)              | Bernoulli Distribution                                 |
+| [binofig()](https://github.com/shinokada/statsfig/blob/master/doc/binomial.md)               | Binomial Distribution                                  |
+| [boxplot()](https://github.com/shinokada/statsfig/blob/master/doc/boxplot.md)                | Box and whisker plot                                   |
+| [chifig()](https://github.com/shinokada/statsfig/blob/master/doc/chifig.md)                  | Chi-Square Distribution                                |
+| [expofig()](https://github.com/shinokada/statsfig/blob/master/doc/expofig.md)                | Exponential Distribution                               |
+| [gammafig()](https://github.com/shinokada/statsfig/blob/master/doc/gammafig.md)              | Gamma Distribution                                     |
+| [normcdf()](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normcdf)         | Normal Distribution                                    |
+| [normpdf_std](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normpdf_std)   | Normal Distribution with different standard deviations |
+| [normpdf_mean](https://github.com/shinokada/statsfig/blob/master/doc/normal.md#normpdf_mean) | Normal Distribution with different means               |
+| [poisfix()](https://github.com/shinokada/statsfig/blob/master/doc/poisfig.md)                | Poisson Distribution                                   |
+| [uniformfig()](https://github.com/shinokada/statsfig/blob/master/doc/uniformfig.md)          | Uniform Distribution                                   |
