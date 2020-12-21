@@ -1,6 +1,12 @@
 # Statsfig
 
-Statsfig allow you to create following figures easily:
+[Please read more details.](https://towardsdatascience.com/a-python-package-to-create-stats-figures-with-ease-503cf6ec0b26)
+
+[Find updates at Github.](https://github.com/shinokada/statsfig)
+
+[Please sign up for more free resources.](https://mailchi.mp/ae9891ba897a/codewithshin)
+
+## Statsfig allow you to create following figures easily:
 
 - Bernoulli distribution
 - Binomial distribution
@@ -25,8 +31,8 @@ import statsfig as sf
 
 ## Available functions
 
-| Functions                                                    | Description                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------ |
+| Functions      | Description        |
+| ------------ | ------------- |
 | [bernofig()](https://github.com/shinokada/statsfig/blob/master/doc/bernofig.md) | Bernoulli Distribution                                 |
 | [binofig()](https://github.com/shinokada/statsfig/blob/master/doc/binomial.md) | Binomial Distribution                                  |
 | [boxplot()](https://github.com/shinokada/statsfig/blob/master/doc/boxplot.md) | Box and whisker plot                                   |
