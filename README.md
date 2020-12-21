@@ -1,6 +1,6 @@
 # Statsfig
 
-[Please read more details.](https://towardsdatascience.com/a-python-package-to-create-stats-figures-with-ease-503cf6ec0b26)
+[Read more details.](https://towardsdatascience.com/a-python-package-to-create-stats-figures-with-ease-503cf6ec0b26)
 
 [Find updates at Github.](https://github.com/shinokada/statsfig)
 
